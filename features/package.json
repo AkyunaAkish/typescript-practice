@@ -1,0 +1,12 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "types": "npx ts-node ./types.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
