@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "types": "npx ts-node ./types.ts"
+    "types": "npx ts-node ./types.ts",
+    "interfaces": "npx ts-node ./interfaces.ts"
   },
   "keywords": [],
   "author": "",
