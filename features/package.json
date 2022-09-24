@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "types": "npx ts-node ./types.ts",
-    "interfaces": "npx ts-node ./interfaces.ts"
+    "interfaces": "npx ts-node ./interfaces.ts",
+    "classes": "npx ts-node ./classes.ts"
   },
   "keywords": [],
   "author": "",
