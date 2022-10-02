@@ -1,6 +1,12 @@
 .env
 node_modules
+.cache
+dist
 */.env
 */node_modules
+*/.cache
+*/dist
 **/**/.env
+**/**/.cache
+**/**/dist
 **/**/node_modules
