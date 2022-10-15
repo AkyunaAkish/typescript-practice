@@ -6,7 +6,8 @@
   "scripts": {
     "types": "npx ts-node ./types.ts",
     "interfaces": "npx ts-node ./interfaces.ts",
-    "classes": "npx ts-node ./classes.ts"
+    "classes": "npx ts-node ./classes.ts",
+    "decorators": "npx ts-node ./decorators.ts"
   },
   "keywords": [],
   "author": "",
