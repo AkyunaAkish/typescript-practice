@@ -1,4 +1,3 @@
-// App.test.tsx
 import { Component } from 'react';
 import Home from './index';
 
@@ -15,5 +14,13 @@ describe('Home page testing', () => {
 
   test('render the title of the page', () => {
     expect(wrapper.find('h1').text()).toContain('Home');
+  });
+
+  test('render the counter link on the page', () => {
+    expect(wrapper.find('#counter-link').text()).toContain('Counter');
+  });
+
+  test('render the todos link on the page', () => {
+    expect(wrapper.find('#todos-link').text()).toContain('Todos');
   });
 });
