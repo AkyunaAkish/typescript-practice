@@ -13,7 +13,7 @@ const Counter = (): JSX.Element => {
         Home
       </Link>
 
-      <h3>Counter:</h3>
+      <h3 id="counter-header-label">Counter:</h3>
 
       <p id="counter-value">{counter}</p>
 

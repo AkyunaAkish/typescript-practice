@@ -1,5 +1,3 @@
-/* eslint-disable testing-library/no-node-access */
-/* eslint-disable testing-library/no-container */
 import { render } from '@testing-library/react';
 import Home from './index';
 import { MemoryRouter } from 'react-router-dom';
@@ -12,8 +10,32 @@ describe('Home component', () => {
       </MemoryRouter>
     );
 
-    const header = container.querySelector('#home-title');
+    const element = container.querySelector('#home-title');
 
-    expect(header?.textContent).toBe('Home');
+    expect(element?.textContent).toBe('Home');
+  });
+
+  test('renders the Counter link', () => {
+    const { container } = render(
+      <MemoryRouter>
+        <Home />
+      </MemoryRouter>
+    );
+
+    const element = container.querySelector('#counter-link');
+
+    expect(element?.textContent).toBe('Counter');
+  });
+
+  test('renders the Todos link', () => {
+    const { container } = render(
+      <MemoryRouter>
+        <Home />
+      </MemoryRouter>
+    );
+
+    const element = container.querySelector('#todos-link');
+
+    expect(element?.textContent).toBe('Todos');
   });
 });

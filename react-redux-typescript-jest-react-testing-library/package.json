@@ -25,7 +25,11 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "testing-library/no-node-access": "off",
+      "testing-library/no-container": "off"
+    }
   },
   "browserslist": {
     "production": [

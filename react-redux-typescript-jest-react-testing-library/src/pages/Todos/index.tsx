@@ -40,7 +40,7 @@ const Todos = (props: TodosProps): JSX.Element => {
   };
 
   return (
-    <div className="todos">
+    <div id="todos">
       <h1 id="todos-title">Todos</h1>
 
       <Link id="todos-home-link" to="/">
