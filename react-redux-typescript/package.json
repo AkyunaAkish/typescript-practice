@@ -9,8 +9,8 @@
     "@types/node": "^16.11.65",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
@@ -46,6 +46,7 @@
     "@types/enzyme": "^3.10.12",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^29.1.2",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
     "axios": "1.1.0",
     "babel-jest": "^29.2.0",
     "enzyme": "^3.11.0",
@@ -54,7 +55,7 @@
     "node-sass": "^7.0.3",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.2",
-    "react-test-renderer": "^18.2.0",
+    "react-test-renderer": "17.0.2",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "ts-jest": "^29.0.3"

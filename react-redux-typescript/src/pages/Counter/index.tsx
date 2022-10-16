@@ -8,7 +8,7 @@ const Counter = (): JSX.Element => {
   return (
     <div className="counter">
       <h1>Counter</h1>
-      <Link id="home-link" to="/">Home</Link>
+      <Link id="counter-home-link" to="/">Home</Link>
 
       <h3>Counter:</h3>
       <p id="counter-value">{counter}</p>

@@ -17,7 +17,7 @@ describe('Counter page testing', () => {
   });
 
   test('render the home link on the page', () => {
-    expect(wrapper.find('#home-link').text()).toContain('Home');
+    expect(wrapper.find('#counter-home-link').first().text()).toContain('Home');
   });
 
   test('render the increment button on the page', () => {

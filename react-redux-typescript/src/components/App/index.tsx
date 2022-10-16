@@ -6,13 +6,11 @@ import Todos from '../../pages/Todos';
 
 const App = () => {
   return (
-    <div className="app">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/counter" element={<Counter />} />
-        <Route path="/todos" element={<Todos />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/counter" element={<Counter />} />
+      <Route path="/todos" element={<Todos />} />
+    </Routes>
   );
 };
 

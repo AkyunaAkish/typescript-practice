@@ -39,13 +39,11 @@ const Todos = (props: TodosProps): JSX.Element => {
     });
   };
 
-  console.log(props.todos);
-
   return (
     <div className="todos">
-      <h1>Todos</h1>
+      <h1 id="todos-title">Todos</h1>
 
-      <Link id="home-link" to="/">
+      <Link id="todos-home-link" to="/">
         Home
       </Link>
 
